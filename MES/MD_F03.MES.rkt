@@ -61,7 +61,7 @@
             (mes-load? "mes¥icon_c2.mec" 0)
             (mes-load? 0))
            (// (nop@))))))
-   (define-proc 15 (<> (text "「キヨミ」" 'br)))
+   (define-proc 15 (<> (text "「Kiyomi」" 'br)))
    (define-proc 16 (<> (text "「プリス」" 'br)))
    (define-proc 17 (<> (wait) (text-reset 14)))
    (proc 10)

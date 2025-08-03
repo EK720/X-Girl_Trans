@@ -74,7 +74,7 @@
          (exec-mem 256 "P 11 7 242"))
         (// (nop@))))
    (proc 12))
- (seg (? (= R B)) (text "「キヨミ」" 'br))
+ (seg (? (= R B)) (text "「Kiyomi」" 'br))
  (seg (? (>= R 1)) (text "「ミツコ」" 'br))
  (seg (? (= 417 #t)) (wait) (text-reset 14))
  (seg (? (= 185 #f))

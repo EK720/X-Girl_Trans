@@ -71,7 +71,7 @@
             (set-reg 770 #t))
            (// (nop@))))
       (proc 12)))
-   (define-proc 13 (<> (text "「キヨミ」" 'br)))
+   (define-proc 13 (<> (text "「Kiyomi」" 'br)))
    (define-proc 14 (<> (text "「プリス」" 'br)))
    (define-proc 16 (<> (wait) (text-reset 14)))
    (proc 10)

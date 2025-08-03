@@ -74,7 +74,7 @@
            (// (nop@))))
       (proc 14)
       (proc 12)))
-   (define-proc 17 (<> (text "「キヨミ」" 'br)))
+   (define-proc 17 (<> (text "「Kiyomi」" 'br)))
    (define-proc 18 (<> (text "「エリコ」" 'br)))
    (define-proc 14
      (<>
@@ -87,7 +87,7 @@
    (text "ふぅ〜ン、はやく、はやくぅ！")
    (wait)
    (text-reset 14)
-   (text "「キヨミ」" 'br)
+   (text "「Kiyomi」" 'br)
    (text "がっつくんじゃないよ。言われなくても酷い事してやるさ。")
    (wait)
    (text-reset 14)

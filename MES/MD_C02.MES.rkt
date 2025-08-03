@@ -65,7 +65,7 @@
             (proc 18))
            (// (proc 12))))))
    (define-proc 18 (<> (mes-load? "mes¥md_c2pl1.mec" 4096) (exec-mem 4096)))
-   (define-proc 15 (<> (text "「キヨミ」" 'br)))
+   (define-proc 15 (<> (text "「Kiyomi」" 'br)))
    (define-proc 16 (<> (text "「ナナ」" 'br)))
    (define-proc 81
      (<>
