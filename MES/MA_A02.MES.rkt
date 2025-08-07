@@ -65,7 +65,7 @@
    (exec-mem 256 "A 0 S 0")
    (exec-mem 256 "G 1 4 64 12 48")
    (exec-mem 4768 4 8 12 6 1 0 0 4480 4480 1 0)
-   (menu1 5 72 5 88 (</> (/ (text "　セーブ　")) (/ (str " 　移動　 "))))
+   (menu1 5 72 5 88 (</> (/ (text "   Save   ")) (/ (str "  Travel  "))))
    (if (</>
         (//
          (? (= S 0))
@@ -84,11 +84,11 @@
           6
           144
           (</>
-           (/ (text "　ファイル１　"))
-           (/ (text "　ファイル２　"))
-           (/ (text "　ファイル３　"))
-           (/ (text "　ファイル４　"))
-           (/ (text "　ファイル５　"))
+           (/ (text "    File 1    "))
+           (/ (text "    File 2    "))
+           (/ (text "    File 3    "))
+           (/ (text "    File 4    "))
+           (/ (text "    File 5    "))
            (/)))
          (exec-mem 256 "P 9 5 72")
          (exec-mem 256 "P 1 4 64")
@@ -104,7 +104,7 @@
                (flag-save 0)
                (nop@)
                (set-var K 0)
-               (text "セーブしました")
+               (text "Successfully saved to File 1.")
                (wait)
                (text-reset 14))
               (//
@@ -114,7 +114,7 @@
                (flag-save 1)
                (nop@)
                (set-var K 0)
-               (text "セーブしました")
+               (text "Successfully saved to File 2.")
                (wait)
                (text-reset 14))
               (//
@@ -124,7 +124,7 @@
                (flag-save 2)
                (nop@)
                (set-var K 0)
-               (text "セーブしました")
+               (text "Successfully saved to File 3.")
                (wait)
                (text-reset 14))
               (//
@@ -134,7 +134,7 @@
                (flag-save 3)
                (nop@)
                (set-var K 0)
-               (text "セーブしました")
+               (text "Successfully saved to File 4.")
                (wait)
                (text-reset 14))
               (//
@@ -144,7 +144,7 @@
                (flag-save 4)
                (nop@)
                (set-var K 0)
-               (text "セーブしました")
+               (text "Successfully saved to File 5.")
                (wait)
                (text-reset 14))
               (// (? (= S 255)))))
@@ -163,9 +163,9 @@
           6
           112
           (</>
-           (/ (text "　アンナのオフィス　"))
-           (/ (text "　　アンナの部屋　　"))
-           (/ (text "　　　外に出る　　　"))
+           (/ (text "   Anna's Office   "))
+           (/ (text "    Anna's Room    "))
+           (/ (text "      Outside      "))
            (/)))
          (exec-mem 256 "P 9 5 72")
          (exec-mem 256 "P 1 4 64")
@@ -195,7 +195,7 @@
    (text "部屋と同じくらい古びた机と椅子が置かれている。わたし自身はほとんど使う事がないが、体裁を保つ為にあるんだろう。")
    (wait)
    (text-reset 14)
-   (text "わたしにはデスクワークは似合わないし、自分の仕事だとも思っていない。")
+   (text "I never really had a reason to. Desk work doesn't suit me,   and I don't consider it my job.")
    (wait)
    (text-reset 14)
    (nop@)
@@ -242,7 +242,7 @@
    (proc 1))
  (seg (? (= S 2) (= 291 #t))
    (proc 0)
-   (text "脱走した囚人を捕まえるまでは、戸棚を開ける必要もないだろう。")
+   (text "I don't need to open this until I catch one of the prisoners.")
    (wait)
    (text-reset 14)
    (proc 1))
@@ -259,7 +259,7 @@
    (proc 1))
  (seg (? (= S 3) (= 293 #f))
    (proc 0)
-   (text "窓の外には、戦没者慰霊塔がある。世界各地の戦線で死亡した兵士達の名を連ねた物だ。")
+   (text "Outside the window is a war memorial. The pillar stands at   least three stories tall, covered in the names of soldiers   who've died for our nation.")
    (wait)
    (text-reset 14)
    (text "最近では塔は、その数と高さをどんどん増している。ほんの２ヶ月部屋を留守にしていただけで、驚く程景色が変わってしまう。")
