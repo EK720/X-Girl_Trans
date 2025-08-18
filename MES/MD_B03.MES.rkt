@@ -61,7 +61,7 @@
             (mes-load? 0))
            (// (nop@))))))
    (define-proc 13 (<> (text "「Kiyomi」" 'br)))
-   (define-proc 14 (<> (text "「レイファ」" 'br)))
+   (define-proc 14 (<> (text "「Lei-Fa」" 'br)))
    (set-var H 0)
    (proc 10)
    (proc 13)

@@ -140,7 +140,7 @@
    (text "また会ったね、姉さん‥‥‥‥‥‥")
    (wait)
    (text-reset 14)
-   (text "「レイファ」" 'br)
+   (text "「Lei-Fa」" 'br)
    (text "この前は油断してたけど、今度はそうはいかないね。")
    (wait)
    (text-reset 14)
