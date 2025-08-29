@@ -1,5 +1,5 @@
 (mes
- (meta (engine 'ADV) (charset "pc98") (extraop #t))
+ (meta (engine 'ADV) (charset "english") (extraop #t))
  (seg (? (= 991 #f) (= Y 0))
    (nop@)
    (set-reg 980 #t)
