@@ -1,5 +1,5 @@
 (mes
- (meta (engine 'ADV) (charset "pc98") (extraop #t))
+ (meta (engine 'ADV) (charset "english") (extraop #t))
  (seg*
   (load-mem "clm¥b04_01.clm" 32768)
   (exec-mem 14080 2 24 4 135 71 80 34 80 34 0 30)

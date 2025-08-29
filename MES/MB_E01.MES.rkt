@@ -1,5 +1,5 @@
 (mes
- (meta (engine 'ADV) (charset "pc98") (extraop #t))
+ (meta (engine 'ADV) (charset "english") (extraop #t))
  (seg*
   (if (</>
        (// (? (= 58 #t) (= 60 #t)) (mes-jump "mes¥mb_e02.mes"))

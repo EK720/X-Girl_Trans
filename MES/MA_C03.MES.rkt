@@ -1,5 +1,5 @@
 (mes
- (meta (engine 'ADV) (charset "pc98") (extraop #t))
+ (meta (engine 'ADV) (charset "english") (extraop #t))
  (seg*
   (branch-reg 74 (</> (/) (/ (mes-jump "mes¥ma_c04.mes"))))
   (exec-mem 14080 2 24 4 135 71 80 34 80 34 0 30)
