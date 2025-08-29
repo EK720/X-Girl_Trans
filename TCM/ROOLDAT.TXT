@@ -3,9 +3,9 @@
 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Original Concept
 
 　　　　　　　Hirono Kenichi　　　　　　　Director
-　　　　　　　　　　　　　　　　　　　　　　　　　Screenplay Production
+　　　　　　　　　　　　　　　　　　　　　　　　　Scenario Design
 
-　　　　　　　Ryunosuke Shibasawa　　　　Writer
+　　　　　　　Ryunosuke Shibasawa　　　　Dialogue
 
 　　　　　　　Rinshin　　　　　　　　　　　Character Design
 　　　　　　　　　　　　　　　　　　　　　　　　　Original Artwork
@@ -13,7 +13,7 @@
 　　　　　　　Fukumoto Kan　　　　　　　　Storyboards
 　　　　　　　　　　　　　　　　　　　　　　　　　Direction
 
-　　　　　　　Ya Ryu Studio　　　　　　　Stage Setting
+　　　　　　　Ya Ryu Studio　　　　　　　Set Design
 　　　　　　　　　　　　　　　　　　　　　　　　　Key Animation
 
 　　　　　　　ＭＵＳＥ　　　　　　　　　　　Music Production
@@ -25,7 +25,7 @@
 　　　　　　　Ｍatpyon　　　　　　　　　　　Programming
 
 　　　　　　　Takana Rei
-　　　　　　　　　　　　　　　　　　　　　　Script Design
+　　　　　　　　　　　　　　　　　　　　　　Script Support
 
 　　　　　　　David Coverdale
 　　　　　　　　　　　　　　　　　　　　　　Production Coordinator
