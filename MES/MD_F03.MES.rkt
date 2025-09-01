@@ -62,7 +62,7 @@
             (mes-load? 0))
            (// (nop@))))))
    (define-proc 15 (<> (text "「Kiyomi」" 'br)))
-   (define-proc 16 (<> (text "「プリス」" 'br)))
+   (define-proc 16 (<> (text "「Priss」" 'br)))
    (define-proc 17 (<> (wait) (text-reset 14)))
    (proc 10)
    (set-var H 0)
