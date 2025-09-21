@@ -75,7 +75,7 @@
         (// (nop@))))
    (proc 12))
  (seg (? (= R B)) (text "「Kiyomi」" 'br))
- (seg (? (>= R 1)) (text "「ミツコ」" 'br))
+ (seg (? (>= R 1)) (text "「Mitsuko」" 'br))
  (seg (? (= 417 #t)) (wait) (text-reset 14))
  (seg (? (= 185 #f))
    (nop@)
