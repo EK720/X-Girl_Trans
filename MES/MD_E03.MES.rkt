@@ -75,7 +75,7 @@
       (proc 14)
       (proc 12)))
    (define-proc 17 (<> (text "「Kiyomi」" 'br)))
-   (define-proc 18 (<> (text "「エリコ」" 'br)))
+   (define-proc 18 (<> (text "「Eriko」" 'br)))
    (define-proc 14
      (<>
       (branch-reg
@@ -83,7 +83,7 @@
        (</> (/) (/ (image-file "gpc¥a1_42gl.gpc") (image-mem 1 0))))))
    (proc 10)
    (set-var H 0)
-   (text "「エリコ」" 'br)
+   (text "「Eriko」" 'br)
    (text "ふぅ〜ン、はやく、はやくぅ！")
    (wait)
    (text-reset 14)
@@ -91,7 +91,7 @@
    (text "がっつくんじゃないよ。言われなくても酷い事してやるさ。")
    (wait)
    (text-reset 14)
-   (text "「エリコ」" 'br)
+   (text "「Eriko」" 'br)
    (text "がまんできないのォ、はやくしてぇ‥‥‥")
    (wait)
    (text-reset 14)

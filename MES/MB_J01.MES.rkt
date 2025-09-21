@@ -144,7 +144,7 @@
    (text "この前は油断してたけど、今度はそうはいかないね。")
    (wait)
    (text-reset 14)
-   (text "「エリコ」" 'br)
+   (text "「Eriko」" 'br)
    (text "このひと、恐い‥‥‥‥‥‥")
    (wait)
    (text-reset 14)
