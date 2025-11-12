@@ -1,5 +1,5 @@
 (mes
- (meta (engine 'ADV) (charset "pc98") (extraop #t))
+ (meta (engine 'ADV) (charset "english") (extraop #t))
  (seg (? (= 991 #f) (= Y 0))
    (exec-mem 14080 2 0 0 159 99 80 34 80 34 0 30)
    (text-frame 0 0 79 399)

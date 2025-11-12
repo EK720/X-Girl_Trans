@@ -1,5 +1,5 @@
 (mes
- (meta (engine 'ADV) (charset "pc98") (extraop #t))
+ (meta (engine 'ADV) (charset "english") (extraop #t))
  (seg*
   (proc 0)
   (image-file "gpc¥a1_31a.gpc")

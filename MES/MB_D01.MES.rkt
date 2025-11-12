@@ -1,5 +1,5 @@
 (mes
- (meta (engine 'ADV) (charset "pc98") (extraop #t))
+ (meta (engine 'ADV) (charset "english") (extraop #t))
  (seg*
   (branch-reg 56 (</> (/) (/ (mes-jump "mes¥mb_d02.es"))))
   (if (</>
