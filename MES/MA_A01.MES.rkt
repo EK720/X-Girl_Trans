@@ -345,7 +345,7 @@
    (text "They told me to \"catch the prisoners\". But with almost no    information on them - no histories, no faces - how am I      supposed to find them?!")
    (wait)
    (text-reset)
-   (text "This mission is totally unlike anything I've done. I've neverheard of a leak in our intel corps before, nor of this many  prisoners escaping at once.")
+   (text "This mission is totally unlike anything I've done. I've neverheard of a leak in our Intel corps before, nor of this many  prisoners escaping at once.")
    (wait)
    (text-reset)
    (text "Also, there must be a reason why Katou, the \"internal affairsinspector\", is involved in this mission. Is there really a   traitor in our ranks?......")

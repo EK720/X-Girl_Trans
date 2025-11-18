@@ -45,7 +45,7 @@
   (wait)
   (text-reset 14)
   (text "Plus, Katou has also avoided getting neuro-mods."'br)
-  (text "I don't think his reasons are the same as mine......")
+  (text "But I don't think his reasons are the same as mine......")
   (wait)
   (text-reset 14)
   (text-delay 0)
