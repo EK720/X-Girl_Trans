@@ -41,7 +41,7 @@
           (</>
            (/ (text "   New Game   "))
            (/ (str "  Load Save   "))
-           (/ (text "−ａｓｏｋｏ−"))
+           (/ (text "−ｔｈｅｒｅ−"))
            (/ (text "  Music Room  "))
            (/ (str "     Quit     ")))))
         (/
@@ -62,7 +62,7 @@
           (</>
            (/ (text "     Continue     "))
            (/ (str "    Load Save    "))
-           (/ (text "　−ａｓｏｋｏ−　"))
+           (/ (text "　−ｔｈｅｒｅ−　"))
            (/ (text "    Music Room    "))
            (/ (text "  Watch Opening  "))
            (/ (str "       Quit       "))))))))
@@ -86,7 +86,7 @@
        (</>
         (/ (text "   Continue   "))
         (/ (str "  Load Save   "))
-        (/ (text "　−ａｓｏｋｏ−　"))
+        (/ (text "　−ｔｈｅｒｅ−　"))
         (/ (text "  Music Room  "))
         (/ (text " Watch Opening"))
         (/ (text "    CG Room   "))
