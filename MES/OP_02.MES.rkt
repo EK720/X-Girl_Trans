@@ -20,7 +20,7 @@
   (text-reset 14)
   (text-delay 5)
   (str "From way up here, the streets and neon lights" 'br)
-  (str "look just like the wiring on a circuitboard.")
+  (str "look just like the wiring on a circuit board.")
   (wait)
   (text-reset 14)
   (text-delay 5)
