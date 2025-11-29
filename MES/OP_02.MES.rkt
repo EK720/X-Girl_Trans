@@ -35,7 +35,7 @@
   (text-reset 14)
   (text-delay 5)
   (str "It turned into a major city after it became" 'br)
-  (str "too dangerous to stay above ground.")
+  (str "too dangerous to stay aboveground.")
   (wait)
   (text-reset 14)
   (text-delay 5)
