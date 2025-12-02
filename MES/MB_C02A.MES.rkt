@@ -45,7 +45,7 @@
   (wait)
   (text-reset 14)
   (text "Now I'm relying on dumb luck and the swastika mark carved" 'br)
-  (text "into Lei-Fa's body. If she's nearby, I should be able to telleven through walls.")
+  (text "into Lei-Fa's body. If she's nearby, I should be able to tell even through walls.")
   (wait)
   (text-reset 14)
   (exec-mem 3968 102 500 360)
