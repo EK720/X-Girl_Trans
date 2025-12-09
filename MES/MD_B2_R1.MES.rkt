@@ -151,7 +151,7 @@
   (wait)
   (text-reset 14)
   (text "「Vagrant」" 'br)
-  (str Heh... super tight, and it feels damn good. You like my dick that much?")
+  (str "Heh... super tight, and it feels damn good. You like my dick that much?")
   (wait)
   (text-reset 14)
   (text "「Vagrant」" 'br)
