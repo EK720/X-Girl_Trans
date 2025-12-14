@@ -83,7 +83,7 @@
    (wait)
    (text-reset 14)
    (text "「April」" 'br)
-   (text "‥‥‥‥‥‥‥‥‥‥‥‥")
+   (str "..................")
    (wait)
    (text-reset 14)
    (text "「Kiyomi」" 'br)

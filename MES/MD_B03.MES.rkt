@@ -85,7 +85,7 @@
    (wait)
    (text-reset 14)
    (proc 14)
-   (text "‥‥‥‥‥‥‥‥‥‥‥‥")
+   (str "..................")
    (wait)
    (text-reset 14)
    (proc 13)

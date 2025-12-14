@@ -149,7 +149,7 @@
    (wait)
    (text-reset 14)
    (text "「Anna」" 'br)
-   (text "‥‥‥‥‥‥‥‥‥‥‥‥")
+   (str "..................")
    (wait)
    (text-reset 14)
    (proc 11)
