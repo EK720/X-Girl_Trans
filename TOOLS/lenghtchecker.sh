@@ -12,6 +12,8 @@ while IFS= read -r line ; do
 		then
 		echo $line
 		echo "Line have $currline characters, max allowed would be $maxlen."
+		echo "At: "
+		grep -n "$line" ../MES/*.rkt | sed -E 's/(.*)(:.*)/\1/'
 		echo ""
 	fi
 done <<< "$fulldump"
