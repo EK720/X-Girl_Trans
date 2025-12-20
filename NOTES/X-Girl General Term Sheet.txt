@@ -1,0 +1,82 @@
+X-GIRL GENERAL TERM SHEET
+
+Intelligence Division - Kiyomi's workplace and a branch of the military.
+
+Internal Affairs Inspector - Katou's official job title.
+
+Kiyomi is a Major. Anna is a Colonel, Katou is an Inspector and above her, she refers to him as Commander.
+
+April, Lei-Fa, Nana, Mitsuko - Names of the 4 prisoners Kiyomi is tasked to catch. Lei-Fa is a romanisation of 雷發, meaning "to emit thunder". All their names are written in katakana.
+
+Eriko (エリコ), Priss (プリス) - Additional heroines who haven't shown up yet.
+
+Purple Rock (think it's slang) - a fictional drug that seems similar to opium. Translates from 紫岩.
+
+Pod-Mod - A purely physical(?) cybernetic enhancement. Slang, translates from ポッドモッド.
+
+Enhancement / mod (neuro-mod, phys-mod) - a cybernetic body modification, either physical or neural, to improve someone's capabilities. Translates from 肉体改造.
+
+Cyber Socket / Socket - brain-computer interface port, translates from ソケット.
+
+Chiba City - Black market district of the city? Translates from 千葉シティ.
+
+Low-Tech - A person with none or very few enhancements. Kiyomi is one of these. Seen as uncommon, but not generally looked down on. Similar to "dirty" in Cyberpunk slang. Translates from ローテク.
+
+High-Tech - A person who have enhancements, like Nana, Anna and Eriko. Translates from ニューテク. (Originally New-Tech)
+
+Circuit-splicer, etc - terms for this world's ripperdocs. A doctor, official or not, who can install enhancements.
+
+The System or A System - It's a system being developed in partnership between the military and a private corporation. Original translation is Mechanism = System (機構＝システム).
+
+Sakata Conglomerate - Sakata Zaibatsu. Zaibatsu definition: A group of large conglomerates or large corporations. Translates from 坂田ザイバツ .
+
+Sigmund Sakata - Eriko's father. Translates from サカタ・ジクムント.
+
+Morii - The head of information guild. Translates from モリイ)
+
+Main characters:
+Kiyomi		April		Nana		Eriko
+Anna		Lei-Fa		Mitsuko		Priss
+
+Main villain:
+Katou
+
+NPCs:
+Ichigaya Base: Uniformed Man (later named as Karl)
+
+Chinatown: Vagrant
+
+Akihabara: Counter Girl (later named as April)
+
+Chiba City: Left Man, Right Man
+--- Morii's Shop: Woman in Mirror Glasses (later named as Morii)
+--- Coffin Inn: Counter Man
+--- Inside the subway: Security Guard's voice, Man, Woman
+
+Sakata Neotech
+--- Sakata
+
+Location:
+Kiyomi's Room (MA_A#)
+
+Anna's Office (MA_B#)
+
+Anna's Room (MA_C#)
+
+Intel Div. Building (MB_A#)
+
+Ichigaya Base (MB_B#)
+
+Chinatown (MB_C#)
+--- Ruined Building (MB_C#A)
+
+Akhihabara - Weapon Shop, later named as April's Shop (MB_D#)
+
+Chiba City (MB_E#)
+--- Left Alley (左の路地) - later named as Morii's Shop (モリイの店) (MB_F#)
+--- Coffin Inn (コフィン宿) (MB_G#)
+--- Inside the subway (地下鉄構内) (MB_I#)
+
+Sakata Neotech (サカタ・ネオテク) (MB_H#)
+
+Police Station (警察署) (MB_J#)
