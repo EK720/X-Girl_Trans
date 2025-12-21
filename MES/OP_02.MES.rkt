@@ -248,7 +248,7 @@
   (str "than she looks to make the math add up.")
   (wait)
   (text-reset 14)
-  (str "But in this city, appearances are often decieving.")
+  (str "But in this city, appearances are often deceiving.")
   (wait)
   (text-reset 14)
   (str "These days, organs and skin can be replaced with" 'br)
