@@ -96,7 +96,7 @@
    (wait)
    (text-reset 14)
    (text "「Priss」" 'br)
-   (text "‥‥‥‥‥‥‥‥‥‥‥‥")
+   (str "..................")
    (wait)
    (text-reset 14)
    (text "「Kiyomi」" 'br)

@@ -39,7 +39,7 @@
   (wait)
   (text-reset 14)
   (proc 15)
-  (text "‥‥‥‥‥‥‥‥‥‥‥‥")
+  (str "..................")
   (wait)
   (text-reset 14)
   (proc 16)
