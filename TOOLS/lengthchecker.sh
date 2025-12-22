@@ -10,7 +10,7 @@ while IFS= read -r line ; do
 	currline=$( echo -n "$line" | wc -m )
 	if [ $currline -gt $maxlen ]
 		then
-		echo $line
+		echo "$line"
 		echo "Line have $currline characters, max allowed would be $maxlen."
 		echo "At: "
 		grep -n "$line" ../MES/*.rkt | sed -E 's/(.*)(:.*)/\1/'
