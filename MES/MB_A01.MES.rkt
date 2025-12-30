@@ -1,15 +1,27 @@
+; X-Girl - Cyberpunk Adventure (PC-98) - MB_A01.MES
+; Translation by Fuzion
+; Script Editing by Tan2000
+; Content Revision by OldCorpo
+; Chapter 1 - April and Lei-Fa
+; Section 1.2 - April and Lei-Fa's search
+; -----Location:-----
+; Infront of Intelligence Division Building
+; -----Scene:-----
+; Search for April and Lei-Fa.
+; --Progression:--
+; 1. Go to Ichigaya Base first.
+; 2. Begin to search for April in Akihabara and Lei-Fa in Chinatown.
+; 3. Back to Intel Division Building to counsel with Anna & Katou.
 (mes
  (meta (engine 'ADV) (charset "pc98") (extraop #t))
  (seg*
-  (branch-reg 56 (</> (/) (/ (mes-jump "mes¥mb_a02.mes"))))
+  (branch-reg 56 (</> (/) (/ (mes-jump "mes¥mb_a02.mes")))) ; After counselling with Anna & Katou, jump to next Section
   (exec-mem 14080 2 24 4 135 71 80 34 80 34 0 30)
   (image-file "gpc¥b15_01.gpc")
   (image-mem 0 3)
   (if (</>
        (//
         (? (!= P 3))
-		(nop@))
-	   (//
         (if (</>
              (//
               (? (= O 0))
@@ -24,7 +36,8 @@
               (sound '|| "uso¥xg_03v.uso")
               (sound '|| 1)
               (nop@)
-              (set-var P 3)))))))
+              (set-var P 3)))))
+       (// (nop@))))
   (load-mem "clm¥b15_01.clm" 32768)
   (proc 3)
   (text-frame 10 312 70 383)
@@ -39,7 +52,7 @@
         (wait)
         (text-reset 14))
        (//
-        (? (= 922 #t) (= 53 #t))
+        (? (= 922 #t) (= 53 #t)) ; Repeat line
         (nop@)
         (str "I walk out of the Intelligence Division building.")
         (wait)
@@ -55,7 +68,7 @@
         (wait)
         (text-reset 14))
        (//
-        (? (= 922 #f))
+        (? (= 922 #f)) ; Lead-in from MA_A01.MES (1st time)
         (str "I exit the intelligence office and step into the streets." 'br)
 		(str "This area is well patrolled by the military, so it's" 'br)
 		(str "relatively safe.")
@@ -137,23 +150,23 @@
           6
           144
           (</>
-           (/ (str "  Intel Dept. Bldg  "))
+           (/ (str "  Intel Div. Bldg   "))
            (/ (str "     Chinatown      "))
            (/ (str "     Chiba City     "))
-           (/ (set-reg 52 #t) (nop@) (str "   Ichigaya Base   "))
-           (/ (set-reg 54 #t) (nop@) (str "     Akihabara     "))))
+           (/ (set-reg 52 #t) (nop@) (str "   Ichigaya Base    "))
+           (/ (set-reg 54 #t) (nop@) (str "     Akihabara      ")))) ; Akihabara accessible after Ichigaya Base visit
          (exec-mem 256 "P 9 5 72")
          (exec-mem 256 "P 1 4 64")
          (if (</>
               (//
                (? (= S 0))
                (if (</>
-                    (// (? (= 54 #t)) (nop@) (mes-jump "mes¥MA_A02.MES"))
+                    (// (? (= 54 #t)) (nop@) (mes-jump "mes¥MA_A02.MES")) ; Back to Kiyomi Room, move to next Section
                     (// (mes-jump "mes¥MA_A01.MES")))))
-              (// (? (= S 1)) (mes-jump "mes¥MB_C01.MES"))
-              (// (? (= S 2)) (mes-jump "mes¥MB_E01.MES"))
-              (// (? (= S 3)) (mes-jump "mes¥MB_B01.MES"))
-              (// (? (= S 4)) (mes-jump "mes¥MB_D01.MES"))
+              (// (? (= S 1)) (mes-jump "mes¥MB_C01.MES")) ; Go to Chinatown (1st scene)
+              (// (? (= S 2)) (mes-jump "mes¥MB_E01.MES")) ; Go to Chiba City (1st scene)
+              (// (? (= S 3)) (mes-jump "mes¥MB_B01.MES")) ; Go to Ichigaya Base (1st scene)
+              (// (? (= S 4)) (mes-jump "mes¥MB_D01.MES")) ; Go to April shop at Akihabara (1st scene)
               (// (? (= S 255))))))
         (// (? (= S 255)) (exec-mem 256 "P 1 4 64"))))
    (exec-mem 3968 104)
@@ -213,14 +226,14 @@
    (str "floats through the air like fog.")
    (wait)
    (text-reset 14)
-   (str "It might sound like a strange sight, but down here it happens" 'br)
+   (str "It might sound like a strange sight, but down here it happens")
    (str "every day. Soon, the rain will start.")
    (wait)
    (text-reset 14)
    (nop@)
    (set-reg 228 #t)
    (proc 1))
- (seg (? (= S 2) (= 229 #f))
+ (seg (? (= S 2) (= 229 #f)) ; Look at skyscrapers (1st time)
    (proc 0)
    (str "Far above me, the concrete and chrome sky is barely visible" 'br)
    (str "through the mist.")
@@ -230,14 +243,14 @@
    (str "still makes me uneasy.")
    (wait)
    (text-reset 14)
-   (str "I don't think my fear of the city crumbling above me" 'br)
-   (str "will ever go away.")
+   (str "I don't think my fear of the city crumbling above me will" 'br)
+   (str "ever go away.")
    (wait)
    (text-reset 14)
    (nop@)
    (set-reg 229 #t)
    (proc 1))
- (seg (? (= S 2) (= 229 #t))
+ (seg (? (= S 2) (= 229 #t)) ; Repeat line
    (proc 0)
    (str "Far above me, the concrete and chrome sky is barely visible" 'br)
    (str "through the mist.")
@@ -265,13 +278,13 @@
  (seg (? (= S 3) (= 231 #f))
    (proc 0)
    (str "The chill I felt in the helicopter on the way to the" 'br)
-   (str "Intelligence department is still in the air. Combined with" 'br)
+   (str "Intelligence Division is still in the air. Combined with" 'br)
    (str "the sparse crowd, it's a terribly bleak atmosphere.")
    (wait)
    (text-reset 14)
    (str "But if this cold is the only thing from the outside world" 'br)
-   (str "that makes it down here, then maybe I should be" 'br)
-   (str "happy to feel it.")
+   (str "that makes it down here, then maybe I should be happy" 'br)
+   (str "to feel it.")
    (wait)
    (text-reset 14)
    (nop@)
