@@ -495,7 +495,7 @@
    (text-delay 0)
    (text "「Kiyomi」" 'br)
    (text-delay 2)
-   (text "Put your hands on the counter, now!")
+   (text "Now, put your hands on the counter!")
    (wait)
    (text-reset 14)
    (nop@)
