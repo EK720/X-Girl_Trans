@@ -507,7 +507,7 @@
    (text-delay 0)
    (str "「Kiyomi」" 'br)
    (text-delay 2)
-   (text "Now, put your hands on the counter!")
+   (str "Now, put your hands on the counter!")
    (wait)
    (text-reset 14)
    (nop@)
