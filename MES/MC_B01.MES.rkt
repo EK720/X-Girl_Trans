@@ -354,7 +354,7 @@
    (exec-mem 4768 0 0 20 6 1 0 0 4480 4480 1 0)
    (exec-mem 3072 1)
    ((cmd 203) 5 0)
-   (menu1 1 8 1 24 (</> (/ (str "     Continue")) (/ (str "     Give Up"))))
+   (menu1 1 8 1 24 (</> (/ (str "     Continue    ")) (/ (str "     Give Up     "))))
    (exec-mem 256 "P 1 0 0")
    ((cmd 203) 5 16)
    (if (</>

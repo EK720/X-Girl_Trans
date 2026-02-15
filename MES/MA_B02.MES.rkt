@@ -586,7 +586,7 @@
    (text-delay 0)
    (text "「Katou」" 'br)
    (text-delay 2)
-   (text "All you had to do was look through them and you would've seen" 'br)
+   (text "All you had to do was look through them and you would've seen")
    (text "the swastika mark branded on the prisoners. But you didn't.")
    (wait)
    (text-reset 14)

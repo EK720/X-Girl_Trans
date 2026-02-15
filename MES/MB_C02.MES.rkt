@@ -48,7 +48,7 @@
        (//
         (? (= 907 #f))
         (str "Chinatown. Derelict buildings everywhere, dark even at noon -")
-        (str "feels like a criminal hideout.")
+        (str "this place feels like a criminal hideout.")
         (wait)
         (text-reset 14)
         (str "Last time I came here, I had no solid proof Lei-Fa was" 'br)
@@ -160,7 +160,7 @@
    (wait)
    (text-reset 14)
    (str "Mission or not, it takes guts to go in there. If I wasn't so" 'br)
-   (str "desperate, if my career wasn't on the line, I'd never set" 'br)
+   (str "desperate and my career wasn't on the line, I'd never set" 'br)
    (str "foot inside.")
    (wait)
    (text-reset 14)
