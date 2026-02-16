@@ -41,7 +41,7 @@
         (? (= 57 #t)) ; After April arrested
         (proc 3)
         (text-frame 10 312 70 383)
-        (str "April's \(former\) shop in Akihabara's black market. Now that" 'br)
+        (str "April's (former) shop in Akihabara's black market. Now that" 'br)
         (str "the owner's been arrested, there's nothing to do here......")
         (wait)
         (text-reset 14)

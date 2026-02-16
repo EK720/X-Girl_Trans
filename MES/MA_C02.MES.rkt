@@ -87,7 +87,7 @@
         (text-reset 14)
         (text-delay 0)
         (str "「Kiyomi」" 'br)
-        (text-delay 2)
+        (text-delay 5)
         (str "..................")
         (wait)
         (text-reset 14)
@@ -99,8 +99,9 @@
         (text-reset 14)
         (text-delay 0)
         (str "「Kiyomi」" 'br)
-        (text-delay 2)
+        (text-delay 8)
         (str "........................")
+        (text-delay 2)
         (wait)
         (text-reset 14))))
   (nop@)
@@ -127,7 +128,7 @@
           80
           6
           96
-          (</> (/ (str "   Kiyomi's Room    ")) (/ (str "   Anna's Office    "))))
+          (</> (/ (str "   Kiyomi's Room    ")) (/ (str "   Anna's Office   "))))
          (exec-mem 256 "P 9 5 72")
          (exec-mem 256 "P 1 4 64")
          (if (</>
@@ -679,8 +680,8 @@
    (wait)
    (text-reset 14)
    (str "This city is full of people like Anna with unknown pasts. Not")
-   (str "just immigrants, either. It's like they're all frozen" 'br)
-   (str "in time.")
+   (str "just immigrants, either. It's like they're all" 'br)
+   (str "frozen in time.")
    (wait)
    (text-reset 14)
    (nop@)
