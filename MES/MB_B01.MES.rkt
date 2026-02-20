@@ -1,3 +1,13 @@
+; X-Girl - Cyberpunk Adventure (PC-98) - MB_B01.MES
+; Translation by Fuzion
+; Script Editing by Tan2000
+; Content Revision by OldCorpo
+; Chapter 1 - April and Lei-Fa
+; Section 1.2 - April and Lei-Fa's search
+; -----Scene:-----
+; At Ichigaya Base to talk with April & Lei-Fa's ex-Commander.
+; --Progression:--
+; Talk to Colonel Karl after inspecting everything in the room.
 (mes
  (meta (engine 'ADV) (charset "pc98") (extraop #t))
  (seg*
@@ -244,8 +254,13 @@
    (str "「Karl」" 'br)
    (text-delay 2)
    (str "I have no reason to hide anything. You know the kind of" 'br)
-   (str "situation this puts me in. I appreciate that you're" 'br)
-   (str "respecting my position.")
+   (str "situation this puts me in.")
+   (wait)
+   (text-reset 14)
+   (text-delay 0)
+   (str "「Karl」" 'br)
+   (text-delay 2)
+   (str "I appreciate that you're respecting my position.")
    (wait)
    (text-reset 14)
    (text-delay 0)
@@ -271,9 +286,14 @@
    (text-delay 0)
    (str "「Kiyomi」" 'br)
    (text-delay 2)
-   (str "If you think that...... If you really think I'm a" 'br)
-   (str "professional, then tell me where they could be hiding so I" 'br)
-   (str "can clear your name.")
+   (str "If you think that...... 
+   (wait)
+   (text-reset 14)
+   (text-delay 0)
+   (str "「Kiyomi」" 'br)
+   (text-delay 2)
+   (str "If you really think I'm a professional, then tell me where" 'br)
+   (str "they could be hiding so I can clear your name.")
    (wait)
    (text-reset 14)
    (text-delay 0)
