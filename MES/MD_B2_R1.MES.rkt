@@ -135,7 +135,7 @@
   (wait)
   (text-reset 14)
   (text "「Vagrant」" 'br)
-  (str "Y-yeah, I get it... but damn, you've got some very sweet stuff!")
+  (str “Y-yeah, I get it... but damn, you’ve got some nice assets!”)
   (wait)
   (text-reset 14)
   (text "「Vagrant」" 'br)
