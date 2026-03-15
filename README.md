@@ -1,4 +1,4 @@
 # X-Girl_Trans
 English translation files for X-Girl (Fairytale Red-Zone, 1996) for PC-98.
 
-Estimated completion: 31.0% (2787/8981 lines)
+Estimated completion: 29.1% (2638/9033 lines)
